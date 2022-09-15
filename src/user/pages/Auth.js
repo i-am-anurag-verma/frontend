@@ -22,6 +22,7 @@ const Auth = () => {
   const [isLoginMode, setIsLoginMode] = useState(true);
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
   console.log(2)
+  console.log(3)
   const [formState, inputHandler, setFormData] = useForm(
     {
       email: {
